@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="d1" type="id" />
+    <item name="d2" type="id" />
+    <item name="d3" type="id" />
+    <item name="d4" type="id" />
+    <item name="d5" type="id" />
+    <item name="d6" type="id" />
+    <item name="pwBaru" type="id" />
+    <item name="username" type="id" />
+</resources>
