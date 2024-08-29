@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/corner"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/martabak_coklatwijen" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Martabak Coklat Wijen"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  Martabak coklat rasa wijen spesialMartabak coklat rasa wijen spesial
+Coklat Kacang Wijen
+
+Banyak varian martabak manis yang ada di Orins, salah satunya adalah martabak coklat yang memadukan topping coklat serta wijen dan dilengkapi dengan susu kental manis yang jadi sensasi tersendiri bagi anda yang mencobanya. Martabak coklat dengan wijen sendiri merupakan jajanan" android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  favorit orang Indonesia yang siap disantap saat berbagai suasana, baik itu ketika berkumpul bersama teman-teman ataupun keluarga. Rasa martabak coklat dan wijen yang dipadukan ini dapat memberikan energi positif bagi siapa saja yang memakannya sehingga juga bisa memperbaiki mood anda dalam berkegiatan. Martabak coklat kacang biasa menjadi cemilan yang juga bisa menjadi andalan kala lapar melanda, khususnya ketika anda ingin mencari jajanan di malam hari."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

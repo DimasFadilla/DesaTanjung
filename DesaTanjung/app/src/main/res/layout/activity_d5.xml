@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d5">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/corner"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/martabaktelor" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Martabak Telor daging sapi"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  Martabak telur ayam yang di tambah toping daging sapi yang sangat enak di makan malam hari"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  Martabak telur dibuat dari adonan campuran telur, daging, dan daun bawang yang diberi bumbu rempah. Adonan ini kemudian ditaruh di atas lembaran tepung sebagai 'pembungkusnya' dan digoreng sampai garing. Martabak telur digoreng di wajan datar berisi minyak panas"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  Berawal dari seorang pemuda dari Lebaksiu Tegal Jawa tengah yang bernama Ahmad bin Abdul Karim berkelana ke kota besar yaitu Semarang untuk berdagang pada tahun 1930. Kemudian beliau bertemu seorang warga India bernama Abdullah bin Hasan al-Malibary yang pandai memasak dan menjadi sahabat."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="  Berapa kalori dalam martabak telur?
+Tak disangka, martabak telur ternyata mengandung lebih banyak kalori dibanding martabak manis. Sepotong martabak telur kurang lebih mengandung 431 kalori, berbeda cukup signifikan dengan sepotong martabak manis ber-topping cokelat dan kacang yang mengandung 270 kalori."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
